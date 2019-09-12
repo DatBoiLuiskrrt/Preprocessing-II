@@ -71,6 +71,15 @@
     @media @mobile{
       .centerEverything();
     }
+    @media @tablet{
+      display: flex;
+      flex-direction: column;
+      .centerEverything();
+      width: 100vw;
+      
+      
+      
+  }
 
     .destination {
       width: 30%;
@@ -80,6 +89,15 @@
         width: 70vw;
         
       }
+      @media @tablet{
+        display: flex;
+        flex-direction: column;
+        .centerEverything();
+        width: 80vw;
+        
+        
+        
+    }
     }
   }
 }// home
@@ -98,11 +116,18 @@ header{
   width: 100%;
   border-bottom: 2px dashed silver;
   background: white;
+  @media @tablet{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
   @media @mobile{
     display: flex;
     flex-direction: column;
     height: 20vh;
   }
+  
+
 }
 .btn{
   .customButton();
