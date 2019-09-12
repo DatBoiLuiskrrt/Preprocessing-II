@@ -1,1 +1,22 @@
 // Mixins in here
+/* BUTTON MIXINS */
+.customButton(){
+    display: block;
+    background-color: darkgray;
+    cursor: pointer;
+    height: 45px;
+    width: 100px;
+    border-radius: 10px;
+    &:hover{
+        color: white;
+        background-color: lightgray;
+      }
+}
+
+.centerEverything{
+    display: flex;
+    flex-direction:column;
+    width: 100vw;
+    // border: 1px solid black;
+    .centerRow();
+}
