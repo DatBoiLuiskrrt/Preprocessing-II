@@ -1,1 +1,35 @@
 // Navigation Styles here
+.navi{
+
+   
+    width: 30vw;
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-around; 
+    @media @tablet{
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+    }
+    @media @mobile{     /*   MEDIA FOR GOING MOBILE */
+        width: 70vw;
+        flex-direction: row;
+    }
+   
+    
+    a{
+        text-decoration: none;
+        color: black;
+        &:hover{
+            color: red;
+        }
+        @media @tablet{
+            display: flex;
+            flex-direction: column;
+            
+            
+            
+        }
+    }
+    
+}
